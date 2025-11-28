@@ -4,7 +4,7 @@ import gambarkost from "../assets/picture/gambarkost.png";
 export default function Hero() {
   return (
     <section className="px-8 md:px-20 py-5">
-      <div className="bg-gradient-to-r from-blue-400 to-blue-600 rounded-3xl p-36.5 flex flex-col md:flex-row items-center gap-10 text-white">
+      <div className="bg-gradient-to-r from-blue-300 to-blue-500 rounded-3xl p-36.5 flex flex-col md:flex-row items-center gap-10 text-white">
         
         {/* Text */}
         <div className="flex-1">
@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="flex gap-4 mt-8">
             <a 
               href="#lokasi"
-              className="bg-blue-300 text-black px-6 py-3 rounded-md font-medium hover:bg-blue-200 transition"
+              className="bg-blue-400 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-200 transition"
             >
               Lihat Lokasi
             </a>
