@@ -3,15 +3,13 @@ import gambarkost from "../assets/picture/gambarkost.png";
 
 export default function Hero() {
   return (
-    <section className="px-6 md:px-20 py-5 relative">
-      
-      {/* BOX BIRU */}
-      <div className="relative bg-gradient-to-r from-blue-400 to-blue-600 rounded-[40px] p-10 md:p-20 overflow-visible flex flex-col md:flex-row items-center">
+    <section className="px-8 md:px-20 py-5">
+      <div className="bg-gradient-to-r from-blue-400 to-blue-600 rounded-3xl p-36.5 flex flex-col md:flex-row items-center gap-10 text-white">
         
-        {/* TEKS */}
-        <div className="max-w-xl">
+        {/* Text */}
+        <div className="flex-1">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Kost Putra 3 Saudara – <br /> Nyaman & Strategis
+            Kost Putra 3 Saudara – <br/> Nyaman & Strategis
           </h1>
 
           <p className="mt-4 text-lg text-white/90">
@@ -19,7 +17,7 @@ export default function Hero() {
             dekat kampus & akses transportasi.
           </p>
 
-          {/* BUTTONS */}
+          {/* Buttons */}
           <div className="flex gap-4 mt-8">
             <a 
               href="#lokasi"
@@ -37,14 +35,12 @@ export default function Hero() {
           </div>
         </div>
 
-      </div>
-
-      {/* GAMBAR — KELUAR DARI BOX (SEPERTI GAMBAR) */}
-      <img 
+        {/* Image */}
+        <img 
         src={gambarkost}
         alt="Kost"
         className="
-          w-[300px] md:w-[560px] 
+          w-[450px] md:w-[560px] 
           absolute 
           right-0
           bottom-[-40px] md:bottom-[-70px]
@@ -52,7 +48,7 @@ export default function Hero() {
           rounded-xl
         "
       />
-
+      </div>
     </section>
   );
 }
