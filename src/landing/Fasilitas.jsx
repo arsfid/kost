@@ -11,7 +11,7 @@ export default function Fasilitas() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* LEFT TEXT */}
-        <div className="space-y-10 ">
+        <div className="space-y-15 pl-14">
           {/* ITEM 1 */}
           <div className="flex gap-4">
             <span className="bg-blue-300 text-white px-4 py-2 rounded-xl font-bold">01</span>
@@ -42,35 +42,35 @@ export default function Fasilitas() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="relative w-full flex justify-center">
+        <div className="relative md:w-svh flex justify-center">
           <img
             src={kosImage}
             alt="kos"
-            className="rounded-2xl w-full h-[550px] object-cover shadow-lg"
+            className="rounded-3xl w-[400px] h-[560px] object-cover shadow-xl"
           />
 
           {/* FLOATING CARDS */}
-          <div className="absolute top-6 left-6 bg-white shadow-xl px-4 py-2 rounded-xl flex items-center gap-3">
+          <div className="absolute top-7 left-6 bg-white shadow-xl px-4 py-2 rounded-xl flex items-center gap-3">
             <img src="https://i.pravatar.cc/40?img=3" alt="user" className="w-10 h-10 rounded-full" />
             <div>
               <p className="text-sm font-semibold">Arsya Ganteng</p>
-              <p className="text-xs text-gray-600">⭐ 4,0</p>
+              <p className="text-xs text-gray-600">⭐ 5,0</p>
             </div>
           </div>
 
-          <div className="absolute bottom-8 left-6 bg-white shadow-xl px-4 py-2 rounded-xl flex items-center gap-3">
+          <div className="absolute bottom-40 left-6 bg-white shadow-xl px-4 py-2 rounded-xl flex items-center gap-3">
             <img src="https://i.pravatar.cc/40?img=5" alt="user" className="w-10 h-10 rounded-full" />
             <div>
-              <p className="text-sm font-semibold">Rizal Rahma</p>
-              <p className="text-xs text-gray-600">⭐ 4,0</p>
+              <p className="text-sm font-semibold">Rizal Musang</p>
+              <p className="text-xs text-gray-600">⭐ 4,8</p>
             </div>
           </div>
 
           <div className="absolute bottom-60 right-2 bg-white shadow-xl px-4 py-2 rounded-xl flex items-center gap-3">
             <img src="https://i.pravatar.cc/40?img=7" alt="user" className="w-10 h-10 rounded-full" />
             <div>
-              <p className="text-sm font-semibold">Wardani daus</p>
-              <p className="text-xs text-gray-600">⭐ 4,0</p>
+              <p className="text-sm font-semibold">Wardani Musang</p>
+              <p className="text-xs text-gray-600">⭐ 4,5</p>
             </div>
           </div>
         </div>
